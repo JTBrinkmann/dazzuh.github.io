@@ -1,8 +1,8 @@
 {
     "room": "Red Panda Day",
     "author": "A smart panda",
-    "icon": null,
-    "css": null,
+    "icon": "http://orig00.deviantart.net/874c/f/2013/264/1/b/free_icon__red_panda_by_musehorse-d6n9d1d.png",
+    "css": "http://dazzuh.github.io/css.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
