@@ -1,5 +1,5 @@
 /**
- *@author jtbrinkmann aka. Brinkie Pie
+ *@author jtbrinkmann aka. Brinkie Pie, ever so slightly modified by Dazzuh
  *@license MIT License http://opensource.org/licenses/MIT
  *@copyright 2014 J.-T. Brinkmann
  */
@@ -38,6 +38,9 @@
     display: none;
 }
 
+#toast-notifications {
+    left: 5px!important;
+}
   
 /* RCS Stuff  */
 
@@ -45,28 +48,14 @@
     background: linear-gradient(to bottom, rgba(105, 19, 41, 0) 0, rgba(92, 2, 85, 0) 100%) !important;
     height: 0px;
 }
-/*
-#woot-rs,#grab-rs,#meh-rs {
-    display: none!important;
-}
-
-#friends-button .request-count {
-    right: 90px;
-}
-*/
 
 #rcs-progress-container .bar {
-    background: rgba(82, 215, 159, 0.35)!important;
+    background: rgba(105, 19, 41, 1)!important;
 }
 
 #rcs-progress-container {
     background: rgba(38, 50, 46, 0.4)!important;
 }
-
-/*
-.p0ne-last-activity {
-    left: 250px;
-} */
 
 /* transparent background */
 #playlist-panel .button, #chat .moderation, #chat .skip, #chat .update, #chat .welcome,
@@ -814,38 +803,4 @@
 #chat .cm:hover::before {
     width: 3px;
     transition: width 200ms ease-out 50ms;
-}
-
-
-
-/*== fix FiMplug room theme ==*/
-/*= pinned chat message =*/
-#chat #chat-header::after {
-    position: static;
-    margin-top: 12px;
-    border: none;
-}
-
-/*= mentions =*/
-#chat .mention.from-none, .mention.from-none:nth-child(2n+1) {
-    background: rgba(88, 90, 28, 0.7) !important;
-    border-left: #FFDD6F 3px solid;
-}
-
-/*= fix Unnoen =*/
-#chat .fromID-3463504 .un {
-    color: #04C9B2 !important;
-}
-#chat .fromID-3463504 .icon-chat-host {
-  background-image: url(https://plug.unnoen.com/images/ranks/CoHost.png);
-  background-position: 0 0;
-}
-#chat .fromID-3463504.mention {
-    background: rgba(47, 115, 107, 0.7) !important;
-    border-left: #04C9B2 3px solid !important;
-}
-
-
-#toast-notifications {
-    left: 5px!important;
 }
