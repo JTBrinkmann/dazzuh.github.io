@@ -12,12 +12,12 @@
 
 /* clear background */
 #app {
-    background: url("http://i.imgur.com/rtk1XAU.jpg") fixed center center / cover !important;
+    background: url("https://dazzuh.github.io/dazzuh/burden.png") fixed center center / cover !important;
 }
 
 /* blurred background */
 #history-panel, .popout, #chatlog, .app-right, #playlist-panel, #playlist-panel .actions, #user-rollover, #footer-user .back, #dashboard, .pop-menu, .p0ne-song-info {
-    background: url("http://i.imgur.com/n1FjlTj.png") fixed center center / cover !important;
+    background: url("https://dazzuh.github.io/dazzuh/burdenblur.png") fixed center center / cover !important;
 }
 
 /* background gradient */

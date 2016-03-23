@@ -12,12 +12,12 @@
 
 /* clear background */
 #app {
-    background: url("http://i.imgur.com/RgcKfpo.png") fixed center center / cover !important;
+    background: url("https://dazzuh.github.io/rose/rose.png") fixed center center / cover !important;
 }
 
 /* blurred background */
 #history-panel, .popout, #chatlog, .app-right, #playlist-panel, #playlist-panel .actions, #user-rollover, #footer-user .back, #dashboard, .pop-menu, .p0ne-song-info {
-    background: url("http://i.imgur.com/duyjrUR.png") fixed center center / cover !important;
+    background: url("https://dazzuh.github.io/rose/roseblur.png") fixed center center / cover !important;
 }
 
 /* background gradient */
@@ -41,7 +41,7 @@
 #toast-notifications {
     left: 5px!important;
 }
-  
+
 /* RCS Stuff  */
 
 #rs-skip-button {
